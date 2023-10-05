@@ -1,0 +1,13 @@
+.banner{
+  height: 100vh;
+  color: white;
+  /* font-family: 'Sacramento', cursive; */
+  min-height: 600px;
+}
+.NaveBar_block{
+  background: #252525;
+  backdrop-filter: blur(8px);
+  position: fixed;
+  z-index: 23;
+  width: 100%;
+}
