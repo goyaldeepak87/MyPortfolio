@@ -153,6 +153,79 @@ const WrapperBanner = styled.div`
         right: 20%;
     }
 }
+@media (max-width: 1199px) {
+    .banner {
+        height: 70vh;
+        min-height: 650px;
+    }
+    .user_profile_block {
+        right: -2%;
+    }
+}
+@media (max-width: 991px) {
+    .banner_heading_italic {
+        font-size: 30px;
+    }
+    .banner_heading {
+        font-size: 30px;
+    }
+    .banner_subheading {
+        font-size: 35px;
+    }
+    .banner_titel {
+        font-size: 35px;
+        line-height: 40px;
+        margin-top: 1.5rem;
+        margin-bottom: 5px;
+    }
+    .banner_text {
+        font-size: 15px;
+    }
+    .user_profile_block > div >img {
+        width: 80%;
+    }
+    .banner {
+        height: 50vh;
+        min-height: 500px;
+    }
+    .pic_background_line {
+        width: 82%;
+        height: 165px;
+        top: 42%;
+        left: 8px;
+    }
+    .banner_dote1 {
+        top: 28%;
+        left: -37px;
+        width: 75px;
+    }
+    .banner_dote2 {
+        right: -11px;
+        width: 75px;
+        bottom: 20%;
+    }
+    .user_profile_block {
+        top: -35px;
+    }
+    .banner_Path2 {
+        top: 52%;
+        left: -23px;
+        width: 36px;
+    }
+    .banner_Path3 {
+        bottom: 20%;
+        left: -57px;
+        width: 27px;
+    }
+    .banner_Path1 {
+        right: -55px;
+        width: 30px;
+        bottom: 50%;
+    }
+    .social_icon {
+        width: 25px;
+    }
+}
 `;
 export default function Banner() {
     return (
@@ -160,7 +233,7 @@ export default function Banner() {
             <div className='container-fluid banner'>
                 <div className='container'>
                     <div className='row' style={{ height: "100%", alignItems: "center" }}>
-                        <div className='col-6'>
+                        <div className='col-lg-6 col-md-7'>
                             <div className='banner_content_block'>
                                 <div className='banner_heading'>
                                     Hello, <span className='banner_heading_italic'>My Name is</span><br /> <span className='banner_subheading'>DEEPAK GOYAL</span>
@@ -180,7 +253,7 @@ export default function Banner() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-6' style={{ position: "relative" }}>
+                        <div className='col-lg-6 col-md-5' style={{ position: "relative" }}>
                             <div className='user_profile_block'>
                                 <div>
                                     <div className='banner_dote1'><img src={whiteDote} /></div>

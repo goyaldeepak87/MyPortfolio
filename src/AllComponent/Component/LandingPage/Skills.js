@@ -77,6 +77,26 @@ img{
         margin-right: 1.5rem;
     }
 }
+@media (max-width: 1199px) {
+    .Skills_card > div {
+        width: 96px;
+        height: 96px;
+    }
+}
+@media (max-width: 991px) {
+    .Skills_heading {
+        font-size: 44px;
+    }
+    .Skills_card {
+        margin: 5px;
+    }
+    .Skills_card > div {
+        width: 80px;
+        height: 80px;
+        margin: auto;
+    }
+}
+
 `;
 
 export default function Skills() {

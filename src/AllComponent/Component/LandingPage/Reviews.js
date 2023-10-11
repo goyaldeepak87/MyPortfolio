@@ -66,6 +66,27 @@ const WrapperReviews = styled.div`
     font-weight: 400;
     line-height: normal;
 }
+@media (max-width: 991px) {
+    .Reviews_heading {
+        font-size: 23px;
+    }
+    .Reviews_title {
+        font-size: 42px;
+        padding-bottom: 1rem;
+    }
+    .Reviews_col2 {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .Reviews_col1_title {
+        font-size: 23px;
+        font-weight: 600;
+    }
+    .Reviews_col1_heading {
+        font-size: 22px;
+        font-weight: 600;
+    }
+}
 `;
 
 export default function Reviews() {

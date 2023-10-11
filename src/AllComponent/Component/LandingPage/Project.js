@@ -30,7 +30,7 @@ const ProjectSkills = styled.div`
 .Project_heading span{
     color: white;
 }
-.Reviews_title{
+.Project_title{
     color: white;
     text-align: center;
     font-family: Poppins;
@@ -119,6 +119,31 @@ img{
 .image_hover_logo.width img{
     width: 140px;
 }
+@media (max-width: 1199px) {
+    img {
+        height: 175px;
+    }
+}
+@media (max-width: 991px) {
+    img {
+        height: 135px;
+    }
+    .Project_heading {
+        font-size: 23px;
+    }
+    .Project_title {
+        font-size: 42px;
+    }
+    .project_card_text {
+        font-size: 12px;
+    }
+    .project_card_heading {
+        font-size: 23px;
+        padding: 0.2rem;
+        padding-left: 0.5rem;
+        padding-bottom: 0px;
+    }
+}
 `
 
 export default function Project() {
@@ -129,9 +154,9 @@ export default function Project() {
                     <div className='row'>
                         <div className='col-12'>
                             <div className='Project_heading'><div>My, <span>Work</span></div></div>
-                            <div className='Reviews_title'>Recent Projects</div>
+                            <div className='Project_title'>Recent Projects</div>
                         </div>
-                        <div className='col-4'>
+                        <div className='col-lg-4 col-md-4'>
                             <div className='project_card_block'>
                                 <div className='image_block'>
                                     <div><img src={RevRental} /></div>
@@ -149,7 +174,7 @@ export default function Project() {
                                 <div className='project_card_text'>At Backstage we help experiential marketing agencies wow their clients with cutting edge event-tech and digital brand activations.</div>
                             </div>
                         </div>
-                        <div className='col-4'>
+                        <div className='col-lg-4 col-md-4'>
                             <div className='project_card_block'>
                                 <div className='image_block'>
                                     <div><img src={SquareBits} /></div>
@@ -167,7 +192,7 @@ export default function Project() {
                                 <div className='project_card_text'>At Backstage we help experiential marketing agencies wow their clients with cutting edge event-tech and digital brand activations.</div>
                             </div>
                         </div>
-                        <div className='col-4'>
+                        <div className='col-lg-4 col-md-4'>
                             <div className='project_card_block'>
                                 <div className='image_block'>
                                     <div><img src={Aeropath} /></div>
@@ -185,7 +210,7 @@ export default function Project() {
                                 <div className='project_card_text'>At Backstage we help experiential marketing agencies wow their clients with cutting edge event-tech and digital brand activations.</div>
                             </div>
                         </div>
-                        <div className='col-4'>
+                        <div className='col-lg-4 col-md-4'>
                             <div className='project_card_block'>
                                 <div className='image_block'>
                                     <div><img src={ParidhanMarchentpanel} /></div>
@@ -203,7 +228,7 @@ export default function Project() {
                                 <div className='project_card_text'>At Backstage we help experiential marketing agencies wow their clients with cutting edge event-tech and digital brand activations.</div>
                             </div>
                         </div>
-                        <div className='col-4'>
+                        <div className='col-lg-4 col-md-4'>
                             <div className='project_card_block'>
                                 <div className='image_block'>
                                     <div><img src={RevrentalAdmin} /></div>

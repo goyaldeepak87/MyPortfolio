@@ -108,6 +108,20 @@ img{
         right: 6%;
     }
 }
+@media (max-width: 1199px) {
+    .QuestionIconleft {
+        width: 70px;
+        position: absolute;
+        bottom: 17%;
+        right: 3%;
+    }
+    .Slider_text {
+        font-size: 18px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
 `;
 
 

@@ -105,6 +105,66 @@ img{
         top: -109px;
     }
 }
+@media (max-width: 1199px) {
+    .Service_card_whiteDote2 {
+        right: 19%;
+        top: -82px;
+        width: 27%;
+    }
+    .Service_card_whiteDote {
+        width: 19%;
+    }
+    .Service_card_whiteDote1 {
+        top: -78px;
+        width: 27%;
+        left: -18%;
+    }
+}
+@media (max-width: 991px) {
+    .Service_heading {
+        font-size: 23px;
+    }
+    .Service_title{
+        font-size: 44px;
+    }
+    .Service_card_title {
+        font-size: 18px;
+        padding-bottom: 0.5rem;
+    }
+    .Service_card_heading {
+        font-size: 28px;
+    }
+    .Service_card_text{
+        font-family: Poppins;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        padding-bottom: 0.7rem;
+    }
+    .Service_block > div > div{
+        justify-content: space-evenly;
+    }
+    .Service_card_whiteDote {
+        width: 26%;
+    }
+    .Service_card_whiteDote2 {
+        right: 35%;
+        top: -56px;
+        width: 28%;
+    }
+    .Service_card_whiteDote1 {
+        top: -56px;
+        width: 28%;
+        left: -18%;
+    }
+    .Service_card_WhitePath {
+        width: 12px;
+    }
+    .Service_card_BlackPath {
+        width: 60px;
+    }
+}
 `;
 export default function Service() {
     return (
@@ -116,7 +176,7 @@ export default function Service() {
                             <div className='Service_heading'><div>My, <span>Myself</span></div></div>
                             <div className='Service_title'>WHAT I DO</div>
                         </div>
-                        <div className='col-4'>
+                        <div className='col-xl-4 col-lg-5 col-md-5'>
                             <div style={{ position: "relative" }}>
                                 <div className='Service_card_block'>
                                     <div className='Service_card_heading'>Web Design</div>
@@ -128,7 +188,7 @@ export default function Service() {
                                 <div className='Service_card_whiteDote'><img src={whiteDote} /></div>
                             </div>
                         </div>
-                        <div className='col-4'>
+                        <div className='col-xl-4 col-lg-5 col-md-5'>
                             <div style={{ position: "relative" }}>
                                 <div className='Service_card_block'>
                                     <div className='Service_card_heading'>Web Design</div>

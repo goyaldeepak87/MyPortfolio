@@ -111,6 +111,34 @@ img{
     border: 2px solid #de964e;
     border-radius: 27px;
 }
+@media (max-width: 1199px) {
+    .blackDote {
+        right: 18px;
+    }
+}
+@media (max-width: 991px) {
+    .Aboutus_heading {
+        font-size: 23px;
+    }
+    .Aboutus_title {
+        font-size: 44px;
+    }
+    .pitchDote {
+        width: 75px;
+    }
+    .Aboutus_text {
+        font-size: 17px;
+        padding-top: 1.5rem;
+    }
+    .linePitchDote1 {
+        width: 70px;
+    }   
+    .blackDote {
+        right: 12px;
+        width: 75px;
+        top: 260px;
+    } 
+}
 `
 
 export default function Aboutus() {
@@ -120,7 +148,7 @@ export default function Aboutus() {
                 <div className='container Aboutus'>
                     <div className='pitchDote'><img src={pitchDote} /></div>
                     <div className='row' style={{ justifyContent: "center" }}>
-                        <div className='col-8'>
+                        <div className='col-xl-8 col-lg-9'>
                             <div className='Aboutus_heading'><div>About, <span>Myself</span></div></div>
                             <div className='Aboutus_title'>WHAT I DO</div>
                             <div className='Aboutus_text' style={{ position: "relative" }}>

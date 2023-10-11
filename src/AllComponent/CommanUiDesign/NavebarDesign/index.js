@@ -17,7 +17,8 @@ const WrapperNavber = styled.div`
     flex: 0.8;
 }
 .NaveBar_Logo img{
-    width: 140px;
+    width: 124px;
+    padding: 0.2rem 0px;
 }
 .NaveBar_Manu{
     flex-direction: row;
@@ -33,11 +34,11 @@ const WrapperNavber = styled.div`
 }
 .nave_bar_button{
     background: black;
-    margin: 6px;
-    padding: 4px 18px;
-    color: #DE964E;
+    margin: 4px;
+    padding: 4px 15px;
+    color: rgb(222, 150, 78);
     font-family: Poppins;
-    font-size: 19px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
