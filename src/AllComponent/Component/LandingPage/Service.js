@@ -165,6 +165,107 @@ img{
         width: 60px;
     }
 }
+@media (max-width: 767px) {
+    .Service_card_heading {
+        font-size: 23px;
+    }
+    .Service_card_title {
+        font-size: 17px;
+        padding-bottom: 0.5rem;
+    }
+    .Service_card_text {
+        font-size: 14px;
+        padding-bottom: 0rem;
+    }
+    .Service_card_whiteDote {
+        width: 21%;
+        right: -7%;
+        bottom: -8%;
+    }
+    .Service_card_whiteDote1 {
+        top: -38px;
+        width: 22%;
+        left: -8%;
+    }
+    .Service_card_whiteDote2 {
+        right: 44%;
+        top: -42px;
+        width: 22%;
+    }
+    .Service_card_block {
+        margin-top: 2.5rem;
+    }
+    .Service_heading {
+        font-size: 20px;
+    }
+    .Service_title {
+        font-size: 38px;
+    }
+    .Service_block {
+        padding: 1.5rem 0px 3rem;
+    }
+    .Service_card_WhitePath {
+        width: 10px;
+        right: -9%;
+    }
+    .Service_card_BlackPath {
+        width: 55px;
+        left: -4%;
+    }
+}
+@media (max-width: 575px) {
+    .Service_heading {
+        font-size: 19px;
+    }
+    .Service_title {
+        font-size: 35px;
+    }
+    .Service_block {
+        padding: 1rem 12px 2.5rem;
+    }
+    .Service_card_whiteDote {
+        width: 50px;
+        right: -5%;
+        bottom: -8%;
+    }
+    .Service_card_whiteDote1 {
+        top: -31px;
+        width: 47px;
+        left: -4.5%;
+    }
+    .Service_card_WhitePath {
+        width: 8px;
+        right: -5%;
+        top: -7px;
+    }
+    .Service_card_whiteDote2 {
+        right: 90%;
+        top: -24px;
+        width: 47px;
+    }
+    .Service_card_block {
+        margin-top: 2rem;
+    }
+    .Service_card_BlackPath {
+        width: 43px;
+        left: -9%;
+        transform: rotate(90deg);
+        bottom: 3%;
+    }
+    .Service_block > div > div > div:nth-child(2) .Service_card_block{
+        margin-top: 1rem;
+    }
+    .Service_card_title {
+        font-size: 20px;
+        padding-bottom: 0.2rem;
+    }
+    .Service_card_heading {
+        font-size: 25px;
+    }
+    .Service_card_text {
+        font-size: 13px;
+    }
+}
 `;
 export default function Service() {
     return (
@@ -176,24 +277,24 @@ export default function Service() {
                             <div className='Service_heading'><div>My, <span>Myself</span></div></div>
                             <div className='Service_title'>WHAT I DO</div>
                         </div>
-                        <div className='col-xl-4 col-lg-5 col-md-5'>
+                        <div className='col-xl-4 col-lg-5 col-md-5 col-sm-6'>
                             <div style={{ position: "relative" }}>
                                 <div className='Service_card_block'>
                                     <div className='Service_card_heading'>Web Design</div>
-                                    <div className='Service_card_title'>front and development</div>
-                                    <div className='Service_card_text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum has been.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                    <div className='Service_card_title'>Web App Development</div>
+                                    <div className='Service_card_text'>I specialize in developing custom web apps using ReactJS, ensuring they are responsive, high-performing, and user-friendly. Whether it's a dynamic e-commerce platform, a data-driven dashboard, or a real-time chat application, I can design and build it from the ground up</div>
                                     <div className='Service_card_BlackPath'><img src={BlackPath} /></div>
                                 </div>
                                 <div className='Service_card_whiteDote1'><img src={whiteDote} /></div>
                                 <div className='Service_card_whiteDote'><img src={whiteDote} /></div>
                             </div>
                         </div>
-                        <div className='col-xl-4 col-lg-5 col-md-5'>
+                        <div className='col-xl-4 col-lg-5 col-md-5 col-sm-6'>
                             <div style={{ position: "relative" }}>
                                 <div className='Service_card_block'>
                                     <div className='Service_card_heading'>Web Design</div>
-                                    <div className='Service_card_title'>front and development</div>
-                                    <div className='Service_card_text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum has been.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                                    <div className='Service_card_title'>MERN development</div>
+                                    <div className='Service_card_text'>I provide MERN web development services, excelling in MongoDB, Express.js, React.js, and Node.js. Specializing in dynamic and responsive applications, I deliver user-centric solutions, ensuring optimal performance and seamless integration of front-end and back-end functionalities for diverse client needs.</div>
                                     <div className='Service_card_WhitePath'><img src={WhitePath} /></div>
                                 </div>                                
                                 <div className='Service_card_whiteDote2'><img src={whiteDote} /></div>

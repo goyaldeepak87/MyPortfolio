@@ -10,6 +10,9 @@ import RightArrow from "../../../assets/Inspire/RightArrow.svg"
 import Star from "../../../assets/Inspire/Star.svg"
 import styled from 'styled-components';
 const WrapperSlider = styled.div`
+.mobile_view_slider{
+    display: none
+}
 .Slider_block{
     padding: 1.55rem 0px 1rem;
     background: #6D6D6D;;
@@ -121,7 +124,111 @@ img{
         padding-right: 1rem;
     }
 }
+@media (max-width: 991px) {
+    .Reviews_heading {
+        font-size: 42px;
+    }
+    .Slider_text {
+        font-size: 14px;
+    }
+    .QuestionIconleft {
+        width: 50px;
+    }
+    .QuestionIconRight {
+        width: 50px;
+        top: 39%;
+        left: 4.5%;
+    }
+    .slick-prev, .slick-next {
+        width: 45px;
+        height: 45px;
+        top: 35%;
+    }    
+    .Start2 {
+        width: 55px;
+        top: -3%;
+    }
+    .Start1 {
+        width: 55px;
+    }    
+    .Slider_name {
+        font-size: 24px;
+        padding: 0.5rem 0px;
+    }
+}
+@media (max-width: 767px) {
+    .Reviews_heading {
+        font-size: 38px;
+    }
+    .Slider_text {
+        font-size: 13px;
+        padding-bottom: 2rem;
+    }
+    .Slider_img {
+        width: 60px;
+        margin: 1.5rem auto auto;
+    }
+    .Slider_name {
+        font-size: 21px;
+        padding: 0.25rem 0px;
+    }
+    .slick-prev, .slick-next {
+        width: 30px;
+        height: 30px;
+        top: 27%;
+    }
+    .QuestionIconleft {
+        width: 38px;
+        bottom: 11%;
+        right: 0%;
+    }
+    .QuestionIconRight {
+        width: 38px;
+        top: 30%;
+        left: 1%;
+    }
+    .Start2 {
+        width: 50px;
+    }
+    .Start1 {
+        width: 45px;
+        top: 79%
+    }
+    .Slider_block {
+        padding: 1.5rem 0px 2.5rem;
+    }
+}
 
+@media (max-width: 575px) {
+    .slick-prev, .slick-next {
+        display: none !important;
+    }
+    .mobile_view_slider{
+        display: block;
+    }
+    .web_view_slider{
+        display: none;
+    }
+    .QuestionIconRight {
+        width: 30px;
+        top: 34%;
+        left: 2%;
+    }
+    .QuestionIconleft {
+        width: 30px;
+    }
+    .Start2 {
+        width: 35px;
+        top: 12%;
+    }
+    .Start1 {
+        width: 35px;
+        top: 82%;
+    }
+    .Slider_text {
+        font-size: 13px;
+    }
+}
 `;
 
 
@@ -133,7 +240,7 @@ function SampleNextArrow(props) {
             style={{ ...style, display: "block" }}
             onClick={onClick}
         >
-           <img src={RightArrow}/>
+            <img src={RightArrow} />
         </div>
     );
 }
@@ -146,7 +253,7 @@ function SamplePrevArrow(props) {
             style={{ ...style, display: "block" }}
             onClick={onClick}
         >
-            <img src={LeftArrow}/>
+            <img src={LeftArrow} />
         </div>
     );
 }
@@ -174,52 +281,70 @@ export default function Inspiringslider() {
                         </div>
                         <div className='col-12'>
                             <Slider {...settings}>
-                                <div style={{textAlign: "center"}}>
+                                <div style={{ textAlign: "center" }}>
                                     <div className='slider_block'>
                                         <div className='Slider_img'><img src={ProfileImage} /></div>
                                         <div className='Slider_name'>Deepak goyal</div>
-                                        <div className='QuestionIconRight'><img src={QuestionIconRight}/></div>
-                                        <div className='Start1'><img src={Star}/></div>
-                                        <div className='row' style={{justifyContent: "center"}}>
-                                            <div className='col-10'>
-                                                <div className='Slider_text'>
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry. <br/> Lorem Ipsum  has been.Lorem Ipsum is simply dummy text of  the printing and typesetting industry. Lorem Ipsum has been. LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                                        <div className='QuestionIconRight'><img src={QuestionIconRight} /></div>
+                                        <div className='Start1'><img src={Star} /></div>
+                                        <div className='row' style={{ justifyContent: "center" }}>
+                                            <div className='col-md-10  col-sm-12 Slider_text'>
+                                                <div className='web_view_slider'>
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry. <br /> Lorem Ipsum  has been.Lorem Ipsum is simply dummy text of  the printing and typesetting industry. Lorem Ipsum has been. LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                                                </div>
+                                                <div className='mobile_view_slider'>
+                                                    Lorem Ipsum is simply dummy text of the <br /> printing and typesetting
+                                                    industry. Lorem Ipsum  has been.Lorem Ipsum is simply dummy text of  the printing and typesetting industry. Lorem Ipsum has been. LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className='Start2'><img src={Star}/></div>
-                                        <div className='QuestionIconleft'><img src={QuestionIconleft}/></div>
+                                        <div className='Start2'><img src={Star} /></div>
+                                        <div className='QuestionIconleft'><img src={QuestionIconleft} /></div>
                                     </div>
                                 </div>
-                                <div style={{textAlign: "center"}}>
+                                <div style={{ textAlign: "center" }}>
                                     <div className='slider_block'>
                                         <div className='Slider_img'><img src={ProfileImage} /></div>
                                         <div className='Slider_name'>Deepak goyal</div>
-                                        <div className='QuestionIconRight'><img src={QuestionIconRight}/></div>
-                                        <div className='Start1'><img src={Star}/></div>
-                                        <div className='row' style={{justifyContent: "center"}}>
-                                            <div className='col-10 Slider_text'>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry. <br/> Lorem Ipsum  has been.Lorem Ipsum is simply dummy text of  the printing and typesetting industry. Lorem Ipsum has been. LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                                        <div className='QuestionIconRight'><img src={QuestionIconRight} /></div>
+                                        <div className='Start1'><img src={Star} /></div>
+                                        <div className='row' style={{ justifyContent: "center" }}>
+                                            <div className='col-md-10  col-sm-12 Slider_text'>
+                                                <div className='web_view_slider'>
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry. <br /> Lorem Ipsum  has been.Lorem Ipsum is simply dummy text of  the printing and typesetting industry. Lorem Ipsum has been. LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                                                </div>
+                                                <div className='mobile_view_slider'>
+                                                    Lorem Ipsum is simply dummy text of the <br /> printing and typesetting
+                                                    industry. Lorem Ipsum  has been.Lorem Ipsum is simply dummy text of  the printing and typesetting industry. Lorem Ipsum has been. LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                                                </div>
                                             </div>
                                         </div>
-                                        <div className='Start2'><img src={Star}/></div>
-                                        <div className='QuestionIconleft'><img src={QuestionIconleft}/></div>
+                                        <div className='Start2'><img src={Star} /></div>
+                                        <div className='QuestionIconleft'><img src={QuestionIconleft} /></div>
                                     </div>
                                 </div>
-                                <div style={{textAlign: "center"}}>
+                                <div style={{ textAlign: "center" }}>
                                     <div className='slider_block'>
                                         <div className='Slider_img'><img src={ProfileImage} /></div>
                                         <div className='Slider_name'>Deepak goyal</div>
-                                        <div className='QuestionIconRight'><img src={QuestionIconRight}/></div>
-                                        <div className='Start1'><img src={Star}/></div>
-                                        <div className='row' style={{justifyContent: "center"}}>
-                                            <div className='col-10 Slider_text'>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry. <br/> Lorem Ipsum  has been.Lorem Ipsum is simply dummy text of  the printing and typesetting industry. Lorem Ipsum has been. LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                                        <div className='QuestionIconRight'><img src={QuestionIconRight} /></div>
+                                        <div className='Start1'><img src={Star} /></div>
+                                        <div className='row' style={{ justifyContent: "center" }}>
+                                            <div className='col-md-10  col-sm-12 Slider_text'>
+                                                <div className='web_view_slider'>
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry. <br /> Lorem Ipsum  has been.Lorem Ipsum is simply dummy text of  the printing and typesetting industry. Lorem Ipsum has been. LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                                                </div>
+                                                <div className='mobile_view_slider'>
+                                                    Lorem Ipsum is simply dummy text of the <br /> printing and typesetting
+                                                    industry. Lorem Ipsum  has been.Lorem Ipsum is simply dummy text of  the printing and typesetting industry. Lorem Ipsum has been. LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                                                </div>
                                             </div>
                                         </div>
-                                        <div className='Start2'><img src={Star}/></div>
-                                        <div className='QuestionIconleft'><img src={QuestionIconleft}/></div>
+                                        <div className='Start2'><img src={Star} /></div>
+                                        <div className='QuestionIconleft'><img src={QuestionIconleft} /></div>
                                     </div>
                                 </div>
                             </Slider>

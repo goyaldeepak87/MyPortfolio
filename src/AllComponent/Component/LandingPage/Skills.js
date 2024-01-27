@@ -18,6 +18,9 @@ const WrapperSkills = styled.div`
     background: #F9F9F9;
     position: relative;
 }
+.mobile_view{
+    display:none !important;
+}
 img{
     width: 100%;
     padding: 1.4rem 1rem 1rem 1rem;
@@ -96,6 +99,81 @@ img{
         margin: auto;
     }
 }
+@media (max-width: 767px) {
+    .Skills_card > div {
+        width: 65px;
+        height: 65px;
+    }
+    .Skills_card6 img {
+        padding: 0.6rem;
+    }
+    img {
+        width: 100%;
+        padding: 0.7rem 0.6rem 0.6rem;
+    }
+    .Skills_card4 img {
+        padding: 0.2rem 0px 0px;
+        width: 125%;
+    }
+    .Skills_card3 img {
+        padding: 0.6rem 0.6rem 0.6rem;
+    }
+    .Skills_card7 img, .Skills_card8 img {
+        padding: 0.6rem;
+    }
+    .Skills_heading {
+        font-size: 38px;
+    }
+    .Skills_block {
+        padding: 1rem 0px 2.5rem;
+        position: relative;
+    }
+    .Skills_card {
+        margin-bottom: 0.5rem;
+    }
+}
+@media (max-width: 575px) {
+    .Skills_card > div {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 0.2rem;
+    }
+    img {
+        width: 100%;
+        padding: 0.5rem 0.3rem 0.3rem;
+    }
+    .Skills_card7 img, .Skills_card8 img {
+        padding: 0.4rem;
+    }
+    .Skills_card3 img {
+        padding: 0.4rem;
+    }
+    .Skills_card6 img {
+        padding: 0.4rem;
+    }
+    .Skills_card {
+        font-family: Poppins;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .mobile_view{
+        display:block !important;
+    }
+    .web_view{
+        display:none;
+    }
+    .Skills_heading {
+        font-size: 35px;
+    }
+    .Skills_card_block {
+        margin: 0.5rem -12px -14px;
+    }
+    .Skills_block {
+        padding: 0.5rem 0px 2.5rem;
+    }
+}
 
 `;
 
@@ -119,10 +197,11 @@ export default function Skills() {
                         <div className='Skills_card'><div className='Skills_card6'><img src={redux} /></div>Redux</div>
                         <div className='Skills_card'><div className='Skills_card7'><img src={nextjs} /></div>Next js</div>
                         <div className='Skills_card'><div className='Skills_card9'><img src={vscod} /></div>VS Code</div>
-                        <div className='Skills_card'><div className='Skills_card8'><img src={webDevelopment} /></div>WebDevelopment</div>
+                        <div className='Skills_card web_view'><div className='Skills_card8'><img src={webDevelopment} /></div>WebDevelopment</div>
                         <div className='Skills_card'><div className='Skills_card7'><img src={nodejs} /></div>Node js</div>
                         <div className='Skills_card'><div className='Skills_card7'><img src={mongodb} /></div>Mongodb</div>
                         <div className='Skills_card'><div className='Skills_card7'><img src={git} /></div>Git</div>
+                        <div className='Skills_card mobile_view'><div className='Skills_card8'><img src={webDevelopment} /></div>WebDevelopment</div>
                     </div>
                 </div>
             </div>

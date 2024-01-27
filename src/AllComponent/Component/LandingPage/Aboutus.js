@@ -139,6 +139,94 @@ img{
         top: 260px;
     } 
 }
+@media (max-width: 767px) {
+    .Aboutus_heading {
+        font-size: 20px;
+    }
+    .Aboutus_title {
+        font-size: 38px;
+    }
+    .Aboutus_block {
+        padding: 1.5rem 0px 2rem;
+    }
+    .Aboutus_text {
+        font-size: 15px;
+        padding-bottom: 1.5rem;
+    }
+    .pitchDote {
+        width: 55px;
+        top: 55px;
+    }
+    .linePitchDote1 {
+        width: 55px;
+    }
+    .linePitchDote2 {
+        left: 40px;
+        width: 60px;
+        bottom: -10px;
+    }
+    .blackDote {
+        right: 12px;
+        width: 55px;
+        top: 230px;
+    }
+    .button {
+        width: 149px;
+        height: 35px;
+        display: flex;
+        font-size: 16px;
+        margin: 1rem auto auto;
+    }
+    .Path1 {
+        left: -8px;
+        width: 30px;
+        bottom: 28px;
+    }
+}
+@media (max-width: 575px) {
+    .Aboutus_heading {
+        font-size: 19px;
+    }
+    .Aboutus_title {
+        font-size: 35px;
+    }
+    .Aboutus_block {
+        padding: 1rem 0px 2rem;
+    }
+    .Aboutus_text {
+        font-size: 14px;
+        padding-top: 0.7rem;
+        padding-bottom: 1rem;
+    }
+    .linePitchDote1 {
+        width: 45px;
+        top: -5px;
+    }
+    .pitchDote {
+        width: 45px;
+        top: 45px;
+    }
+    .blackDote {
+        right: 12px;
+        width: 45px;
+        top: 230px;
+    }
+    .linePitchDote2 {
+        left: 40px;
+        width: 50px;
+        bottom: 0px;
+    }
+    .button {
+        width: 130px;
+        height: 33px;
+        font-size: 14px;
+    }
+    .Path1 {
+        left: -3px;
+        width: 22px;
+        bottom: 19px;
+    }
+}
 `
 
 export default function Aboutus() {
@@ -152,12 +240,8 @@ export default function Aboutus() {
                             <div className='Aboutus_heading'><div>About, <span>Myself</span></div></div>
                             <div className='Aboutus_title'>WHAT I DO</div>
                             <div className='Aboutus_text' style={{ position: "relative" }}>
-                            <div className='linePitchDote1'><img src={linePitchDote} /></div>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been.Lorem Ipsum is simply dummy text of
-                                the printing and typesetting industry. Lorem Ipsum has been.Lorem
-                                Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been.
+                                <div className='linePitchDote1'><img src={linePitchDote} /></div>
+                                I am a dedicated MERN web developer, proficient in MongoDB, Express.js, React.js, and Node.js. Specializing in crafting dynamic and responsive web applications, I blend technical expertise with creative problem-solving to deliver seamless user experiences. My passion lies in staying at the forefront of technology trends, ensuring my projects are innovative and up-to-date. With a commitment to clean and efficient code, I strive to contribute to the evolving landscape of web development.
                                 <div className='linePitchDote2'><img src={linePitchDote} /></div>
                                 <div className='Path1'><img src={Path1} /></div>
                             </div>

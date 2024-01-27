@@ -1,7 +1,7 @@
 import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import NavebarDesign from './AllComponent/CommanUiDesign/NavebarDesign';
-import 'bootstrap/dist/css/bootstrap.css';
 import Banner from './AllComponent/Component/LandingPage/Banner';
 import Aboutus from './AllComponent/Component/LandingPage/Aboutus';
 import Service from './AllComponent/Component/LandingPage/Service';

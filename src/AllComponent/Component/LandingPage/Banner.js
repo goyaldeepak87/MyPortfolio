@@ -8,7 +8,7 @@ import Path2 from "../../../assets/LandingPage/Path2.svg"
 import Path3 from "../../../assets/LandingPage/Path3.svg"
 import InstaSocialIcon from "../../../assets/SocialIcon/InstaSocialIcon.svg"
 import InstaSocialIcon1 from "../../../assets/SocialIcon/InstaSocialIcon1.svg"
-import FBSocialIcon from "../../../assets/SocialIcon/FBSocialIcon.svg"
+import FBSocialIcon from "../../../assets/SocialIcon/download.png"
 import styled from 'styled-components';
 const WrapperBanner = styled.div`
 .banner{
@@ -226,6 +226,157 @@ const WrapperBanner = styled.div`
         width: 25px;
     }
 }
+
+@media (max-width: 767px) {
+    .banner > div {
+        background: linear-gradient(90deg, rgb(0, 0, 0) 75%, rgb(222, 150, 78) 31%);
+    }
+    .user_profile_block > div {
+        width: 62%;
+    }
+    .user_profile_block > div {
+        width: 75%;
+    }
+    .user_profile_block {
+        right: -2%;
+        left: 34px;
+    }
+    .pic_background_line {
+        width: 80%;
+        height: 114px;
+        top: 48%;
+    }    
+    .banner_dote2 {
+        right: -5px;
+        width: 60px;
+        bottom: 28%;
+    }
+    .banner_dote1 {
+        top: 36%;
+        left: -31px;
+        width: 60px;
+    }
+    .banner_Path1 {
+        right: -29px;
+        width: 22px;
+        bottom: 48%;
+    }
+    .banner_Path3 {
+        bottom: 23%;
+        left: -53px;
+        width: 22px;
+    }
+    .banner_Path2 {
+        top: 55%;
+        left: -20px;
+        width: 29px;
+    }
+    .banner_content_block {
+        padding-right: 1rem;
+    }
+    .banner_titel {
+        font-size: 29px;
+        line-height: 35px;
+    }
+    .banner_subheading {
+        font-size: 27px;
+    }
+    .banner_heading {
+        font-size: 25px;
+    }
+    .banner_heading_italic {
+        font-size: 25px;
+    }
+    .banner {
+        min-height: 430px;
+    }
+    .banner_text {
+        font-size: 13px;
+    }
+}
+@media (max-width: 575px) {
+    .banner {
+        background: linear-gradient(rgb(0, 0, 0) 59%, rgb(222, 150, 78) 40%);
+        min-height: 589px;
+        padding-left: 0;
+    }
+    .banner > div {
+        background: transparent;
+    }
+    .banner_content_block {
+        padding-right: 0rem;
+        top: auto;
+        right: auto;
+        left: auto;
+        padding-bottom: 21px;
+    }
+    .user_profile_block {
+        position: relative;
+        display:block;
+        right: 0px;
+        left: 0px;
+        top: 0px;
+        padding-top: 50px;
+        padding-bottom: 45px;
+    }
+    .user_profile_block > div {
+        height: auto;
+        width: 180px;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        padding-top: 0px;
+        position: relative;
+        margin: auto;
+        justify-content: center;
+    }
+    .banner_heading {
+        font-size: 24px;
+    }
+    .banner_heading_italic {
+        font-size: 24px;
+    }
+    .banner_subheading {
+        font-size: 26px;
+    }
+    .banner_titel {
+        font-size: 29px;
+        line-height: 35px;
+        margin-top: 1rem;
+    }
+    .banner > div > div{
+        align-items: initial !important;
+        height: auto !important;
+    }
+    .pic_background_line {
+        width: 82%;
+        height: 135px;
+        top: 15%;
+        left: 25px;
+    }
+    .banner_dote1 {
+        top: -13%;
+        left: -10px;
+        width: 60px;
+    }
+    .banner_dote2 {
+        right: -12px;
+        width: 55px;
+        bottom: 7%;
+    }
+    .banner_dote1 img{
+        background: transparent;
+    }
+    .banner_Path3 img{
+        background: transparent;
+    }
+    .banner_Path2 {
+        left: 1px;
+    }
+    .banner_Path1 {
+        bottom: 66%;
+    }
+}
 `;
 export default function Banner() {
     return (
@@ -233,27 +384,46 @@ export default function Banner() {
             <div className='container-fluid banner'>
                 <div className='container'>
                     <div className='row' style={{ height: "100%", alignItems: "center" }}>
-                        <div className='col-lg-6 col-md-7'>
+                        <div className='col-lg-6 col-md-7 col-sm-7'>
                             <div className='banner_content_block'>
                                 <div className='banner_heading'>
-                                    Hello, <span className='banner_heading_italic'>My Name is</span><br /> <span className='banner_subheading'>DEEPAK GOYAL</span>
+                                    Hi, <span className='banner_heading_italic'> There! I’m</span><br /> <span className='banner_subheading'>DEEPAK GOYAL</span>
                                 </div>
                                 <div className='banner_titel'>
-                                    FRONTEND <br /> WEB DEVELOPER
+                                    MERN <br /> WEB DEVELOPER
                                 </div>
                                 <div className='banner_text'>
-                                    Lorem Ipsum is simply dummy text of the
-                                    printing and typesetting industry. Lorem
-                                    Ipsum has been.
+                                    MERN web developer excelling in MongoDB, Express.js, React.js, Node.js. Committed to crafting seamless, responsive applications
                                 </div>
                                 <div className='social_icon_block'>
-                                    <div className='social_icon'><img src={InstaSocialIcon}/></div>
-                                    <div className='social_icon'><img src={InstaSocialIcon1}/></div>
-                                    <div className='social_icon'><img src={FBSocialIcon}/></div>
+                                    <div className='social_icon'>
+                                        <a
+                                            href='https://www.linkedin.com/in/deepak-goyal-26a01b14b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
+                                            target='_blank'
+                                        >
+                                            <img src={InstaSocialIcon} />
+                                        </a>
+                                    </div>
+                                    <div className='social_icon'>
+                                        <a
+                                            href='https://www.instagram.com/deepak_goyal1995/?igsh=YzVkODRmOTdmMw%3D%3D'
+                                            target='_blank'
+                                        >
+                                            <img src={InstaSocialIcon1} />
+                                        </a>
+                                    </div>
+                                    <div className='social_icon'>
+                                        <a
+                                            href='https://github.com/goyaldeepak87'
+                                            target='_blank'
+                                        >
+                                            <img style={{ borderRadius: "5px" }} src={FBSocialIcon} />
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-6 col-md-5' style={{ position: "relative" }}>
+                        <div className='col-lg-6 col-md-5 col-sm-5' style={{ position: "relative" }}>
                             <div className='user_profile_block'>
                                 <div>
                                     <div className='banner_dote1'><img src={whiteDote} /></div>

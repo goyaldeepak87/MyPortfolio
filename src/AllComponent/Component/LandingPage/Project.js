@@ -144,6 +144,33 @@ img{
         padding-bottom: 0px;
     }
 }
+@media (max-width: 767px) {
+    .Project_heading {
+        font-size: 20px;
+    }
+    .Project_title {
+        font-size: 36px;
+        padding-bottom: 1.5rem;
+    }
+    .project_card_block {
+        margin-bottom: 1.5rem;
+    }    
+    .Project_block {
+        padding: 1.5rem 0px 0.5rem
+    }    
+}
+@media (max-width: 767px) {
+    img {
+        height: auto;
+    }
+    .project_card_text {
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .project_card_heading {
+        font-size: 25px;
+    }
+}
 `
 
 export default function Project() {
@@ -151,12 +178,12 @@ export default function Project() {
         <ProjectSkills>
             <div className='container-fluid Project_block'>
                 <div className='container'>
-                    <div className='row'>
+                    <div className='row' style={{justifyContent: "center"}}>
                         <div className='col-12'>
                             <div className='Project_heading'><div>My, <span>Work</span></div></div>
                             <div className='Project_title'>Recent Projects</div>
                         </div>
-                        <div className='col-lg-4 col-md-4'>
+                        <div className='col-lg-4 col-md-4 col-sm-6 col-11'>
                             <div className='project_card_block'>
                                 <div className='image_block'>
                                     <div><img src={RevRental} /></div>
@@ -174,7 +201,7 @@ export default function Project() {
                                 <div className='project_card_text'>At Backstage we help experiential marketing agencies wow their clients with cutting edge event-tech and digital brand activations.</div>
                             </div>
                         </div>
-                        <div className='col-lg-4 col-md-4'>
+                        <div className='col-lg-4 col-md-4 col-sm-6 col-11'>
                             <div className='project_card_block'>
                                 <div className='image_block'>
                                     <div><img src={SquareBits} /></div>
@@ -192,7 +219,7 @@ export default function Project() {
                                 <div className='project_card_text'>At Backstage we help experiential marketing agencies wow their clients with cutting edge event-tech and digital brand activations.</div>
                             </div>
                         </div>
-                        <div className='col-lg-4 col-md-4'>
+                        <div className='col-lg-4 col-md-4 col-sm-6 col-11'>
                             <div className='project_card_block'>
                                 <div className='image_block'>
                                     <div><img src={Aeropath} /></div>
@@ -210,7 +237,7 @@ export default function Project() {
                                 <div className='project_card_text'>At Backstage we help experiential marketing agencies wow their clients with cutting edge event-tech and digital brand activations.</div>
                             </div>
                         </div>
-                        <div className='col-lg-4 col-md-4'>
+                        <div className='col-lg-4 col-md-4 col-sm-6 col-11'>
                             <div className='project_card_block'>
                                 <div className='image_block'>
                                     <div><img src={ParidhanMarchentpanel} /></div>
@@ -228,7 +255,7 @@ export default function Project() {
                                 <div className='project_card_text'>At Backstage we help experiential marketing agencies wow their clients with cutting edge event-tech and digital brand activations.</div>
                             </div>
                         </div>
-                        <div className='col-lg-4 col-md-4'>
+                        <div className='col-lg-4 col-md-4 col-sm-6 col-11'>
                             <div className='project_card_block'>
                                 <div className='image_block'>
                                     <div><img src={RevrentalAdmin} /></div>

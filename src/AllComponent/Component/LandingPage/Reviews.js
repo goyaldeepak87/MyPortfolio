@@ -87,6 +87,65 @@ const WrapperReviews = styled.div`
         font-weight: 600;
     }
 }
+@media (max-width: 767px) {
+    .Reviews > div > div:nth-child(2){
+        padding-right: 0;
+    }
+    .Reviews_col1 {
+        padding-right: 11px;
+        border-right: 2px solid black;
+    }
+    .Reviews_col1_title {
+        font-size: 19px;
+    }
+    .Reviews_col2 {
+        font-size: 13px;
+    }
+    .Reviews_title {
+        font-size: 37px;
+    }
+    .Reviews_heading {
+        font-size: 20px;
+    }
+}    
+@media (max-width: 767px) {
+    .Reviews_block {
+        padding: 1.5rem 0px 2rem;
+    }
+}
+@media (max-width: 575px) {
+    .Reviews_heading {
+        font-size: 19px;
+    }
+    .Reviews_title {
+        font-size: 34px;
+    }
+    .Reviews_col1_heading {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 22px;
+        text-align: left;
+    }
+    .Reviews_col1_title {
+        font-size: 19px;
+        text-align: left;
+    }
+    .Reviews_col2 {
+        font-size: 14px;
+        font-weight: 400;
+        padding-top: 0.5rem;
+    }
+    .Reviews_block {
+        padding: 1rem 0px 2rem;
+    }
+    .Reviews > div > div:nth-child(2) {
+        padding-right: 12px;
+    }
+    .Reviews_col1 {
+        padding-right: 0px;
+        border-right: 0px solid black;
+    }
+}
 `;
 
 export default function Reviews() {
@@ -99,13 +158,13 @@ export default function Reviews() {
                             <div className='Reviews_heading'><div>My, <span>Reviews</span></div></div>
                             <div className='Reviews_title'>TESTIMONIALS</div>
                         </div>
-                        <div className='col-4'>
+                        <div className='col-sm-4'>
                             <div className='Reviews_col1'>
                                 <div className='Reviews_col1_heading'>E-Commerce</div>
                                 <div className='Reviews_col1_title'>fresh and Green</div>
                             </div>
                         </div>
-                        <div className='col-8'>
+                        <div className='col-sm-8'>
                             <div className='Reviews_col2'>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting
                                 industry. Lorem Ipsum has been.Lorem Ipsum is simply dummy text of  the printing and typesetting industry. Lorem Ipsum has been. LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
