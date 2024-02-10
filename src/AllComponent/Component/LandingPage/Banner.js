@@ -296,7 +296,7 @@ const WrapperBanner = styled.div`
 }
 @media (max-width: 575px) {
     .banner {
-        background: linear-gradient(rgb(0, 0, 0) 59%, rgb(222, 150, 78) 40%);
+        background: linear-gradient(rgb(0, 0, 0) 62%, rgb(222, 150, 78) 40%);
         min-height: 589px;
         padding-left: 0;
     }
