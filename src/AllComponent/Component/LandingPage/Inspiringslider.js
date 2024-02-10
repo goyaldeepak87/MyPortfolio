@@ -3,6 +3,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ProfileImage from "../../../assets/LandingPage/deepakphoto.png"
+import stevejobs from "../../../assets/Inspire/steve-jobs.jpg"
+import billgates from "../../../assets/Inspire/bill-gates.jpg"
+import linustorvalds from "../../../assets/Inspire/linus-torvalds.jpg"
 import QuestionIconRight from "../../../assets/Inspire/QuestionIconRight.svg"
 import QuestionIconleft from "../../../assets/Inspire/QuestionIconleft.svg"
 import LeftArrow from "../../../assets/Inspire/LeftArrow.svg"
@@ -283,19 +286,19 @@ export default function Inspiringslider() {
                             <Slider {...settings}>
                                 <div style={{ textAlign: "center" }}>
                                     <div className='slider_block'>
-                                        <div className='Slider_img'><img src={ProfileImage} /></div>
-                                        <div className='Slider_name'>Deepak goyal</div>
+                                        <div className='Slider_img'><img src={stevejobs} /></div>
+                                        <div className='Slider_name'>Steve Jobs</div>
                                         <div className='QuestionIconRight'><img src={QuestionIconRight} /></div>
                                         <div className='Start1'><img src={Star} /></div>
                                         <div className='row' style={{ justifyContent: "center" }}>
                                             <div className='col-md-10  col-sm-12 Slider_text'>
                                                 <div className='web_view_slider'>
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                    industry. <br /> Lorem Ipsum  has been.Lorem Ipsum is simply dummy text of  the printing and typesetting industry. Lorem Ipsum has been. LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                                                    Your time is limited, so don't waste it living <br />
+                                                    someone else's life. Don't be trapped by dogma — which is living with the results of other people's thinking. Have the courage to follow your heart and intuition. Stay hungry. Stay foolish
                                                 </div>
                                                 <div className='mobile_view_slider'>
-                                                    Lorem Ipsum is simply dummy text of the <br /> printing and typesetting
-                                                    industry. Lorem Ipsum  has been.Lorem Ipsum is simply dummy text of  the printing and typesetting industry. Lorem Ipsum has been. LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                                                    Your time is limited, so don't waste it living <br />
+                                                    someone else's life. Don't be trapped by dogma — which is living with the results of other people's thinking. Have the courage to follow your heart and intuition. Stay hungry. Stay foolish
                                                 </div>
                                             </div>
                                         </div>
@@ -305,19 +308,19 @@ export default function Inspiringslider() {
                                 </div>
                                 <div style={{ textAlign: "center" }}>
                                     <div className='slider_block'>
-                                        <div className='Slider_img'><img src={ProfileImage} /></div>
-                                        <div className='Slider_name'>Deepak goyal</div>
+                                        <div className='Slider_img'><img src={billgates} /></div>
+                                        <div className='Slider_name'>Bill Gates</div>
                                         <div className='QuestionIconRight'><img src={QuestionIconRight} /></div>
                                         <div className='Start1'><img src={Star} /></div>
                                         <div className='row' style={{ justifyContent: "center" }}>
                                             <div className='col-md-10  col-sm-12 Slider_text'>
                                                 <div className='web_view_slider'>
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                    industry. <br /> Lorem Ipsum  has been.Lorem Ipsum is simply dummy text of  the printing and typesetting industry. Lorem Ipsum has been. LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                                                    Don't compare yourself with anyone in this world. If you <br /> do so, you are
+                                                    insulting yourself. It's fine to celebrate success, but it is more important to heed the lessons of failure. Success is a lousy teacher
                                                 </div>
                                                 <div className='mobile_view_slider'>
-                                                    Lorem Ipsum is simply dummy text of the <br /> printing and typesetting
-                                                    industry. Lorem Ipsum  has been.Lorem Ipsum is simply dummy text of  the printing and typesetting industry. Lorem Ipsum has been. LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                                                    Don't compare yourself with anyone in this world. If you <br /> do so, you are
+                                                    insulting yourself. It's fine to celebrate success, but it is more important to heed the lessons of failure. Success is a lousy teacher
                                                 </div>
                                             </div>
                                         </div>
@@ -327,19 +330,19 @@ export default function Inspiringslider() {
                                 </div>
                                 <div style={{ textAlign: "center" }}>
                                     <div className='slider_block'>
-                                        <div className='Slider_img'><img src={ProfileImage} /></div>
-                                        <div className='Slider_name'>Deepak goyal</div>
+                                        <div className='Slider_img'><img src={linustorvalds} /></div>
+                                        <div className='Slider_name'>Linus Torvalds</div>
                                         <div className='QuestionIconRight'><img src={QuestionIconRight} /></div>
                                         <div className='Start1'><img src={Star} /></div>
                                         <div className='row' style={{ justifyContent: "center" }}>
                                             <div className='col-md-10  col-sm-12 Slider_text'>
                                                 <div className='web_view_slider'>
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                    industry. <br /> Lorem Ipsum  has been.Lorem Ipsum is simply dummy text of  the printing and typesetting industry. Lorem Ipsum has been. LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                                                    I am not out to destroy Microsoft. That will just be a <br /> completely
+                                                    unintentional side effect." - Linus Torvalds. "I'm a really unpleasant person when I'm not being polite." Linus, the creator of Linux, has a pragmatic and sometimes humorous perspective on technology and his role in its development.
                                                 </div>
                                                 <div className='mobile_view_slider'>
-                                                    Lorem Ipsum is simply dummy text of the <br /> printing and typesetting
-                                                    industry. Lorem Ipsum  has been.Lorem Ipsum is simply dummy text of  the printing and typesetting industry. Lorem Ipsum has been. LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                                                    I am not out to destroy Microsoft. That will just be a <br /> completely
+                                                    unintentional side effect." - Linus Torvalds. "I'm a really unpleasant person when I'm not being polite." Linus, the creator of Linux, has a pragmatic and sometimes humorous perspective on technology and his role in its development.
                                                 </div>
                                             </div>
                                         </div>

@@ -291,15 +291,19 @@ export default function Contactform() {
               <div className='Contact_icon_block'>
                 <div className='Contact_icon'><img className="web_res_icon" src={Email} /> <img className="mobile_res_icon" src={MobilePhone} /></div>
                 <div>
-                  <div className='Contact_icon_heading'>Email</div>
-                  <div className='Contact_icon_text'>goyaldeepak871@gmail.com</div>
+                  <a href="mailto:goyaldeepak871@gmail.com" target="_blank" style={{ color: `white` }}>
+                    <div className='Contact_icon_heading'>Email</div>
+                    <div className='Contact_icon_text'>goyaldeepak871@gmail.com</div>
+                  </a>
                 </div>
               </div>
               <div className='Contact_icon_block'>
                 <div className='Contact_icon'><img className="web_res_icon" src={Phone} /> <img className="mobile_res_icon" src={MobilePhone} /></div>
                 <div>
-                  <div className='Contact_icon_heading'>Phone No.</div>
-                  <div className='Contact_icon_text'>7014165483</div>
+                  <a href="tel:+91 7014165483" target="_blank" style={{ color: `white` }}>
+                    <div className='Contact_icon_heading'>Phone No.</div>
+                    <div className='Contact_icon_text'>7014165483</div>
+                  </a>
                 </div>
               </div>
             </div>

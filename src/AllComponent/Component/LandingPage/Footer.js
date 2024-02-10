@@ -2,6 +2,9 @@ import React from 'react'
 import faceboock from "../../../assets/Fotter/faceboock.svg"
 import insta from "../../../assets/Fotter/insta.svg"
 import linkdin from "../../../assets/Fotter/linkdin.svg"
+import InstaSocialIcon from "../../../assets/SocialIcon/InstaSocialIcon.svg"
+import InstaSocialIcon1 from "../../../assets/SocialIcon/InstaSocialIcon1.svg"
+import FBSocialIcon from "../../../assets/SocialIcon/download.png"
 import styled from 'styled-components';
 const WrapperFooter = styled.div`
 .Footer_block{
@@ -114,9 +117,30 @@ export default function Footer() {
               <div className='row'>
                 <div className='col-lg-3 col-md-4 col-sm-5'>
                   <div className='fotter_icon_block'>
-                    <div className='fotter_icon'><img src={linkdin} /></div>
-                    <div className='fotter_icon'><img src={insta} /></div>
-                    <div className='fotter_icon'><img src={faceboock} /></div>
+                    <div className='fotter_icon'>
+                      <a
+                        href='https://www.linkedin.com/in/deepak-goyal-26a01b14b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
+                        target='_blank'
+                      >
+                        <img src={linkdin} />
+                      </a>
+                    </div>
+                    <div className='fotter_icon'>
+                      <a
+                        href='https://www.instagram.com/deepak_goyal1995/?igsh=YzVkODRmOTdmMw%3D%3D'
+                        target='_blank'
+                      >
+                        <img src={insta} />
+                      </a>
+                    </div>
+                    <div className='fotter_icon'>
+                      <a
+                        href='https://github.com/goyaldeepak87'
+                        target='_blank'
+                      >
+                        <img style={{borderRadius:'46px'}} src={FBSocialIcon} />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>

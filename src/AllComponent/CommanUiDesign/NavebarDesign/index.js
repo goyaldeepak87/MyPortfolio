@@ -122,8 +122,7 @@ export default function NavebarDesign() {
                                     <NavLink style={{ color: "white" }} href="/components/">Skills</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <div className='nave_bar_button'>Download Resume</div>
-                                </NavItem>
+                                    <div className='nave_bar_button'><a href={deepakLogo} download="dowload logo">Download Resume</a></div>                                </NavItem>
                             </Nav>
                         </Collapse>
                     </Navbar>
