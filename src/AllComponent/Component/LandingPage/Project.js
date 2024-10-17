@@ -178,64 +178,70 @@ export default function Project() {
         <ProjectSkills>
             <div className='container-fluid Project_block'>
                 <div className='container'>
-                    <div className='row' style={{justifyContent: "center"}}>
+                    <div className='row' style={{ justifyContent: "center" }}>
                         <div className='col-12'>
                             <div className='Project_heading'><div>My, <span>Work</span></div></div>
                             <div className='Project_title'>Recent Projects</div>
                         </div>
                         <div className='col-lg-4 col-md-4 col-sm-6 col-11'>
-                            <div className='project_card_block'>
-                                <div className='image_block'>
-                                    <div><img src={RevRental} /></div>
-                                    <div className='image_hover_block'>
-                                        <div>
-                                            <div className='image_hover_logo'>
-                                                <img src={Revrentallogo} />
-                                                {/* <div className='image_hover_heading'>Rev Rental</div> */}
+                            <a href='https://www.activaterev.com/' target="blank">
+                                <div className='project_card_block'>
+                                    <div className='image_block'>
+                                        <div><img src={RevRental} /></div>
+                                        <div className='image_hover_block'>
+                                            <div>
+                                                <div className='image_hover_logo'>
+                                                    <img src={Revrentallogo} />
+                                                    {/* <div className='image_hover_heading'>Rev Rental</div> */}
+                                                </div>
+                                                <div className='image_hover_text'>Woocommerce Website</div>
                                             </div>
-                                            <div className='image_hover_text'>Woocommerce Website</div>
                                         </div>
                                     </div>
+                                    <div className='project_card_heading'>Rev Rental</div>
+                                    <div className='project_card_text'>At Backstage we help experiential marketing agencies wow their clients with cutting edge event-tech and digital brand activations.</div>
                                 </div>
-                                <div className='project_card_heading'>Rev Rental</div>
-                                <div className='project_card_text'>At Backstage we help experiential marketing agencies wow their clients with cutting edge event-tech and digital brand activations.</div>
-                            </div>
+                            </a>
                         </div>
                         <div className='col-lg-4 col-md-4 col-sm-6 col-11'>
-                            <div className='project_card_block'>
-                                <div className='image_block'>
-                                    <div><img src={SquareBits} /></div>
-                                    <div className='image_hover_block'>
-                                        <div>
-                                            <div className='image_hover_logo width'>
-                                                <img src={Squarebitslogo} />
-                                                {/* <div className='image_hover_heading'>Rev Rental</div> */}
+                            <a href='https://www.squarebits.com/' target="blank">
+                                <div className='project_card_block'>
+                                    <div className='image_block'>
+                                        <div><img src={SquareBits} /></div>
+                                        <div className='image_hover_block'>
+                                            <div>
+                                                <div className='image_hover_logo width'>
+                                                    <img src={Squarebitslogo} />
+                                                    {/* <div className='image_hover_heading'>Rev Rental</div> */}
+                                                </div>
+                                                <div className='image_hover_text'>Company Website</div>
                                             </div>
-                                            <div className='image_hover_text'>Company Website</div>
                                         </div>
                                     </div>
+                                    <div className='project_card_heading'>Square Bits</div>
+                                    <div className='project_card_text'>At Backstage we help experiential marketing agencies wow their clients with cutting edge event-tech and digital brand activations.</div>
                                 </div>
-                                <div className='project_card_heading'>Square Bits</div>
-                                <div className='project_card_text'>At Backstage we help experiential marketing agencies wow their clients with cutting edge event-tech and digital brand activations.</div>
-                            </div>
+                            </a>
                         </div>
                         <div className='col-lg-4 col-md-4 col-sm-6 col-11'>
-                            <div className='project_card_block'>
-                                <div className='image_block'>
-                                    <div><img src={Aeropath} /></div>
-                                    <div className='image_hover_block'>
-                                        <div>
-                                            <div className='image_hover_logo width'>
-                                                <img src={Aeroptahlogo} />
-                                                {/* <div className='image_hover_heading'>Rev Rental</div> */}
+                            <a href='https://aero-path.com/' target="blank">
+                                <div className='project_card_block'>
+                                    <div className='image_block'>
+                                        <div><img src={Aeropath} /></div>
+                                        <div className='image_hover_block'>
+                                            <div>
+                                                <div className='image_hover_logo width'>
+                                                    <img src={Aeroptahlogo} />
+                                                    {/* <div className='image_hover_heading'>Rev Rental</div> */}
+                                                </div>
+                                                <div className='image_hover_text'>Service Provider Website</div>
                                             </div>
-                                            <div className='image_hover_text'>Service Provider Website</div>
                                         </div>
                                     </div>
+                                    <div className='project_card_heading'>Aero Path</div>
+                                    <div className='project_card_text'>At Backstage we help experiential marketing agencies wow their clients with cutting edge event-tech and digital brand activations.</div>
                                 </div>
-                                <div className='project_card_heading'>Aero Path</div>
-                                <div className='project_card_text'>At Backstage we help experiential marketing agencies wow their clients with cutting edge event-tech and digital brand activations.</div>
-                            </div>
+                            </a>
                         </div>
                         <div className='col-lg-4 col-md-4 col-sm-6 col-11'>
                             <div className='project_card_block'>
