@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.b7412e11.css",
-    "main.js": "/MyPortfolio/static/js/main.811c19ff.js",
+    "main.css": "/MyPortfolio/static/css/main.515807e6.css",
+    "main.js": "/MyPortfolio/static/js/main.91796622.js",
     "static/js/787.28cb0dcd.chunk.js": "/MyPortfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/RevRental.png": "/MyPortfolio/static/media/RevRental.99b11f9b051e50dae90a.png",
     "static/media/Aeropath.png": "/MyPortfolio/static/media/Aeropath.4b73ff8feb7fe52880a1.png",
@@ -59,12 +59,12 @@
     "static/media/LeftArrow.svg": "/MyPortfolio/static/media/LeftArrow.1f4566bb08afaac868106e1b137819f2.svg",
     "static/media/Path1.svg": "/MyPortfolio/static/media/Path1.b6abbee58700539e4acb935fe217e834.svg",
     "static/media/Path3.svg": "/MyPortfolio/static/media/Path3.7a868b246477f5b38289ef92c72de206.svg",
-    "main.b7412e11.css.map": "/MyPortfolio/static/css/main.b7412e11.css.map",
-    "main.811c19ff.js.map": "/MyPortfolio/static/js/main.811c19ff.js.map",
+    "main.515807e6.css.map": "/MyPortfolio/static/css/main.515807e6.css.map",
+    "main.91796622.js.map": "/MyPortfolio/static/js/main.91796622.js.map",
     "787.28cb0dcd.chunk.js.map": "/MyPortfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7412e11.css",
-    "static/js/main.811c19ff.js"
+    "static/css/main.515807e6.css",
+    "static/js/main.91796622.js"
   ]
 }
