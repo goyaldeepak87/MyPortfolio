@@ -215,7 +215,7 @@ export default function Project() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='project_card_heading'>Rev Rental</div>
+                                <div className='project_card_heading'>Square Bits</div>
                                 <div className='project_card_text'>At Backstage we help experiential marketing agencies wow their clients with cutting edge event-tech and digital brand activations.</div>
                             </div>
                         </div>
@@ -233,7 +233,7 @@ export default function Project() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='project_card_heading'>Rev Rental</div>
+                                <div className='project_card_heading'>Aero Path</div>
                                 <div className='project_card_text'>At Backstage we help experiential marketing agencies wow their clients with cutting edge event-tech and digital brand activations.</div>
                             </div>
                         </div>
@@ -251,7 +251,7 @@ export default function Project() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='project_card_heading'>Rev Rental</div>
+                                <div className='project_card_heading'>Paridhan Marchant</div>
                                 <div className='project_card_text'>At Backstage we help experiential marketing agencies wow their clients with cutting edge event-tech and digital brand activations.</div>
                             </div>
                         </div>

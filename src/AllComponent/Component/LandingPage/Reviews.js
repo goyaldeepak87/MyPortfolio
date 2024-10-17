@@ -166,8 +166,7 @@ export default function Reviews() {
                         </div>
                         <div className='col-sm-8'>
                             <div className='Reviews_col2'>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been.Lorem Ipsum is simply dummy text of  the printing and typesetting industry. Lorem Ipsum has been. LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
+                                Your work as a web developer is impressive! Each project showcases your technical skill and creativity, transforming ideas into engaging digital experiences. Your ability to blend functionality with design sets you apart. Keep pushing boundaries—your journey is just beginning, and endless opportunities await in the ever-evolving digital landscape!
                             </div>
                         </div>
                     </div>
