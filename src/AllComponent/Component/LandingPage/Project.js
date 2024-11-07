@@ -275,7 +275,7 @@ export default function Project() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='project_card_heading'>Rev Rental</div>
+                                <div className='project_card_heading'>Rev Dashboard</div>
                                 <div className='project_card_text'>At Backstage we help experiential marketing agencies wow their clients with cutting edge event-tech and digital brand activations.</div>
                             </div>
                         </div>
